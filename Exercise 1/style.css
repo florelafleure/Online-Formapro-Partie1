@@ -90,6 +90,8 @@ header{
     font-size: 29px;
     color: darkolivegreen;
     text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
 
     }
 
@@ -131,6 +133,26 @@ header{
 
     font-size: 18px;
     color: darkolivegreen;
+
+    }
+
+.defile{
+
+    display: flex; 
+    /* flex-direction: row; */
+    /* display:inline-flex; */
+    width: 100%;
+    overflow: scroll;
+    justify-content: center;
+
+
+    }
+
+.defile .div{
+
+    width: 10%;
+    padding: 0.5%;
+    margin: 0.5%;
 
     }
 
