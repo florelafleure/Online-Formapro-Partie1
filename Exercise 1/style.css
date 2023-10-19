@@ -141,16 +141,16 @@ header{
     display: flex; 
     /* flex-direction: row; */
     /* display:inline-flex; */
-    width: 100%;
-    overflow: scroll;
-    justify-content: center;
+    /* width: 100%; */
+    overflow:auto;
+    padding: 1%;
 
 
     }
 
-.defile .div{
+.defile div{
 
-    width: 10%;
+    width: 100%;
     padding: 0.5%;
     margin: 0.5%;
 
