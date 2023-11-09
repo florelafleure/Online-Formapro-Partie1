@@ -145,6 +145,25 @@ header{
     overflow:auto;
     padding: 1%;
 
+    }
+
+.defile::-webkit-scrollbar{
+
+    width: 12px; /* width of the entire scrollbar */
+
+    }
+      
+.defile::-webkit-scrollbar-track{
+
+    background: gray; /* color of the tracking area */
+
+    }
+      
+.defile::-webkit-scrollbar-thumb{
+
+    background-color: olivedrab; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: 3px solid gray; /* creates padding around scroll thumb */
 
     }
 
@@ -200,20 +219,14 @@ header{
 .img2 a .commando .button2 {
 
     background-color: rgb(255, 255, 255);
-    cursor:default;
+    cursor: pointer;
     display: inline-block;
     padding: 0.75em 1em;
     box-sizing: border-box;
     transition-property: all;
     will-change: auto;
-    font-weight: 700;
-    border-style: none;
-    -webkit-transition:  all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    
-    
+    font-weight: 750;
+    border-style: none;  
 
 }
 
