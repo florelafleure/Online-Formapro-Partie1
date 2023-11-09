@@ -200,15 +200,19 @@ header{
 .img2 a .commando .button2 {
 
     background-color: rgb(255, 255, 255);
-    /*border-bottom-color: rgb(69, 77, 77);*/
     cursor:default;
     display: inline-block;
     padding: 0.75em 1em;
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
     transition-property: all;
     will-change: auto;
     font-weight: 700;
     border-style: none;
+    -webkit-transition:  all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
     
 
 }
