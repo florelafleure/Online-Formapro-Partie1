@@ -1,3 +1,4 @@
+
 body{
 
     background-color: white;
@@ -116,7 +117,8 @@ header{
     font-size: 18px;
     color: white;
     text-align: left;
-    margin-left: 20%;
+    margin:0 20%;
+    border-bottom: 2px white solid;
 
     }
     
@@ -230,5 +232,12 @@ header{
 
 }
 
+@media (max-width: 366px){
 
-
+    .img2 .commando {
+    
+    padding-left: 0;
+        
+        }
+    
+    }
