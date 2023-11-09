@@ -80,13 +80,10 @@ header{
 
 #hero .role {
 
-    align-items:flex-start;
     background-color: gray;
     border-style: none;
-    display: flex;
     
-
-}
+    }
 
 #centre{
 
