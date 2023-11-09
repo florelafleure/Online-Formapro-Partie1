@@ -27,8 +27,6 @@ header{
     display: flex; 
     flex-direction: column; 
     justify-content: center;
-    /* width: 90%; */
-    /* padding-left: 5%; */
     padding-top: 1%;
     padding-bottom: 1%;
 
@@ -124,15 +122,9 @@ header{
     
 #ligne1{
 
-    /* display: flex; */
     flex-direction: row;
     align-items: start;
     justify-content: space-between;
-
-    /* display: flex; */
-    /* display: inline-block; */
-    /* float:right; */
-    /* text-align: center; */
 
     }
 
@@ -140,10 +132,7 @@ header{
 
     font-size: 20px;
     color: white;
-    /* text-align: left; */
     margin-left: 20%;
-    /* margin-right: 3%; */
-    /* display: flex; */
 
     }
 
@@ -157,9 +146,6 @@ header{
 .defile{
 
     display: flex; 
-    /* flex-direction: row; */
-    /* display:inline-flex; */
-    /* width: 100%; */
     overflow:auto;
     padding: 1%;
 
@@ -167,21 +153,21 @@ header{
 
 .defile::-webkit-scrollbar{
 
-    width: 12px; /* width of the entire scrollbar */
+    width: 12px; 
 
     }
       
 .defile::-webkit-scrollbar-track{
 
-    background: gray; /* color of the tracking area */
+    background: gray; 
 
     }
       
 .defile::-webkit-scrollbar-thumb{
 
-    background-color: olivedrab; /* color of the scroll thumb */
-    border-radius: 20px; /* roundness of the scroll thumb */
-    border: 3px solid gray; /* creates padding around scroll thumb */
+    background-color: olivedrab; 
+    border-radius: 20px; 
+    border: 3px solid gray; 
 
     }
 
@@ -227,10 +213,6 @@ header{
     padding-left: 50%;
     left: 0;
     margin-top: 45px;
-    /*bottom: 0;
-
-    /*display: flex;
-    justify-content: right;*/
 
 }
 
