@@ -81,14 +81,20 @@ header{
 
 #hero div[role="recherche"] {
 
-    border-style: none;
     position: absolute;
     top: 0;
     right: 0;
     padding-right: 15px;
-    
+    opacity: 0.5;
+    border-radius: 1,625rem;
+  
     
     }
+
+#hero div .barre {
+
+    border-radius: 75px;
+}
 
 #centre{
 
