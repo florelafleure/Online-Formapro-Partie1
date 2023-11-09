@@ -75,13 +75,18 @@ header{
     align-items: center;
     color: white;
     font-size: 3.6rem;
+    position: relative;
 
     }
 
-#hero .role {
+#hero div[role="recherche"] {
 
-    background-color: gray;
     border-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-right: 15px;
+    
     
     }
 
