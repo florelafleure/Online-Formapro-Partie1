@@ -1,315 +1,247 @@
+body {
+  background-color: white;
+  font-family: sans serif;
+  margin: 0%;
+}
 
-body{
+header {
+  display: flex;
+  flex-direction: row;
+  margin: 0%;
+  width: 100%;
+}
 
-    background-color: white;
-    font-family: sans serif;
-    margin: 0%;
+.img1 {
+  width: 7.3%;
+}
 
-    }
+.colo1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
 
+.button1 {
+  padding: 0.3rem;
+  background-color: darkslategray;
+  display: inline-block;
+  color: white;
+}
 
-header{
-        
-    display:flex;
-    flex-direction:row;
-    margin:0%;
-    width: 100%;
+#text1 {
+  font-size: 20%;
+}
 
-    }
+#entete {
+  font-size: 90%;
+}
 
-.img1{
-
-    width: 7.3%;
-        
-    }
-
-.colo1{
-
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center;
-    padding-top: 1%;
-    padding-bottom: 1%;
-
-    }
-
-.button1{
-
-    padding: 0.3rem;
-    background-color: darkslategray;
-    display: inline-block;
-    color: white;
-    
-     }
-
-#text1{
-
-    font-size: 20%;
-
-    }
-
-#entete{
-
-    font-size: 90%;
-
-    }
-
-#logo1{ 
-        
-    width: 100%;
-
-    }
+#logo1 {
+  width: 100%;
+}
 
 /*.hero*/
 
-#hero{
-
-    height: 67vh;
-    background-image: url("./assets/UPSMHUBWNVAAPFQWXQPDGWNOAU.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 3.6rem;
-    position: relative;
-
-    }
+#hero {
+  height: 67vh;
+  background-image: url("./assets/UPSMHUBWNVAAPFQWXQPDGWNOAU.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3.6rem;
+  position: relative;
+}
 
 #hero div[role="recherche"] {
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    padding-right: 15px;
-    opacity: 0.5;
-    border-radius: 1,625rem;
-  
-    
-    }
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 15px;
+  opacity: 0.5;
+  border-radius: 1, 625rem;
+}
 
 #hero div .barre {
+  border-radius: 75px;
+}
 
-    border-radius: 75px;
+#centre {
+  background-color: darkslategrey;
+}
 
-    }
-
-#centre{
-
-    background-color: darkslategrey;
-
-    }
-    
-#text2{
-
-    font-size: 29px;
-    color: darkolivegreen;
-    text-align: center;
-    margin-top: 0;
-    padding-top: 20px;
-
-    }
+#text2 {
+  font-size: 29px;
+  color: darkolivegreen;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 20px;
+}
 
 #emplois {
-
-    font-size: 15px;
-    color: white;
-    text-align: left;
-    margin:0 20%;
-    border-bottom: 2px white solid;
-
-    }
+  font-size: 15px;
+  color: white;
+  text-align: left;
+  margin: 0 20%;
+  border-bottom: 2px white solid;
+}
 
 /* Dropdown Button */
 .dropbtn {
-
-    background-color:gray;
-    color: white;
-    padding: 3px;
-    font-size: 13px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10%;
-
-    }
-  
-  /* Dropdown button on hover & focus */
-.dropbtn:hover, .dropbtn:focus {
-
-    background-color:olivedrab;
-
-    }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-
-    position: relative;
-    /*display: inline-block;*/
-    
-    }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-
-    display: none;
-    position: absolute;
-    right: 0;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-
-    }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-
-    }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-  .show {display:block;}
-    
-#ligne1{
-
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
-
-    }
-
-#aero{
-
-    font-size: 18px;
-    color: white;
-    text-align: left;
-    margin:0 20%;
-    border-bottom: 2px white solid;
-    padding-top: 5px;
-
-    }
-
-.drop {
-
-    float: right;
-
+  background-color: gray;
+  color: white;
+  padding: 3px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10%;
 }
 
-#notif{
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: olivedrab;
+}
 
-    font-size: 18px;
-    color: darkolivegreen;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  /*display: inline-block;*/
+}
 
-    }
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
 
-.defile{
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
 
-    display: flex; 
-    overflow:auto;
-    padding: 1%;
-    margin-left: 5%;
-    margin-right: 5%;
-    
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
 
-    }
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
 
-.defile::-webkit-scrollbar{
+#ligne1 {
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-between;
+}
 
-    width: 8px; 
+#aero {
+  font-size: 18px;
+  color: white;
+  text-align: left;
+  margin: 0 20%;
+  border-bottom: 2px white solid;
+  padding-top: 5px;
+}
 
-    }
-      
-.defile::-webkit-scrollbar-track{
+.drop {
+  float: right;
+}
 
-    background: gray; 
-    border-radius: 15%;
+#notif {
+  font-size: 18px;
+  color: darkolivegreen;
+}
 
-    }
-      
-.defile::-webkit-scrollbar-thumb{
+.defile {
+  display: flex;
+  overflow: auto;
+  padding: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
-    background-color: olivedrab; 
-    border-radius: 8px; 
-    border: 2px solid gray; 
+.defile::-webkit-scrollbar {
+  width: 8px;
+}
 
-    }
+.defile::-webkit-scrollbar-track {
+  background: gray;
+  border-radius: 15%;
+}
 
-.defile div{
+.defile::-webkit-scrollbar-thumb {
+  background-color: olivedrab;
+  border-radius: 8px;
+  border: 2px solid gray;
+}
 
-    width: 100%;
-    padding: 0.5%;
-    margin: 0.5%;
-    background-color: gray;
-    border-radius: 3%;
-    color: white;
-
-    }
-
+.defile div {
+  width: 100%;
+  padding: 0.5%;
+  margin: 0.5%;
+  background-color: gray;
+  border-radius: 3%;
+  color: white;
+}
 
 .img2 {
-
-    height: 95vh;
-    background-image: url(assets/armée-de-terre-equipement-combattant-2020_14690x6000_Light.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-size: 3.6rem;
-
+  height: 95vh;
+  background-image: url(assets/armée-de-terre-equipement-combattant-2020_14690x6000_Light.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 3.6rem;
 }
 
 .img2 a {
-
-    text-decoration: none;
-    text-decoration-color: white;
-    color: white;
-    display: flex;
-    justify-content: right;
-    font-size:40%;
-    
+  text-decoration: none;
+  text-decoration-color: white;
+  color: white;
+  display: flex;
+  justify-content: right;
+  font-size: 40%;
 }
 
 .img2 .commando {
-
-    position: absolute;
-    padding-left: 50%;
-    left: 0;
-    margin-top: 45px;
-
+  position: absolute;
+  padding-left: 50%;
+  left: 0;
+  margin-top: 45px;
 }
 
 .img2 a .commando .button2 {
-
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    display: inline-block;
-    padding: 0.75em 1em;
-    box-sizing: border-box;
-    transition-property: all;
-    will-change: auto;
-    font-weight: 750;
-    border-style: none;  
-
+  background-color: rgb(255, 255, 255);
+  cursor: pointer;
+  display: inline-block;
+  padding: 0.75em 1em;
+  box-sizing: border-box;
+  transition-property: all;
+  will-change: auto;
+  font-weight: 750;
+  border-style: none;
 }
 
-@media (max-width: 366px){
-
-    .img2 .commando {
-    
+@media (max-width: 366px) {
+  .img2 .commando {
     padding-left: 0;
-        
-        }
-    
-    }
+  }
+}
