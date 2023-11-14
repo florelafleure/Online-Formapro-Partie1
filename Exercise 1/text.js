@@ -20,3 +20,11 @@ window.onclick = function hideDropdownOnExternalClick(event) {
     }
   }
 };
+
+
+document.getElementById("recherche").addEventListener("keyup", function (e) {
+  var recherche = this.value.toLowerCase();
+  var documents = document.querySelectorAll(".drop");
+  console.log(documents)
+  });
+  
